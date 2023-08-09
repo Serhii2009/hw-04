@@ -569,7 +569,7 @@ footer > .link {
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-  background-color: var(--color-dairy);
+  background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -585,24 +585,23 @@ footer > .link {
   height: 24px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--color-cornflower);
+  background-color: #e7e9fc;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button-close:hover,
 .modal__button-close:focus {
-  background-color: var(--color-ocean);
+  background-color: #404bbf;
   border: none;
-  fill: var(--color-white);
+  fill: #ffffff;
 }
 
 .modal__icon-close {
-  fill: var(--ancillary-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button-close:hover .modal__icon-close,
 .modal__button-close:focus .modal__icon-close {
-  fill: var(--color-white);
+  fill: #ffffff;
 }
