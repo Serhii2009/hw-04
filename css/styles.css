@@ -403,6 +403,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .foot {
@@ -550,6 +551,42 @@ footer > .link {
 .section-main {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.team-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-team-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__icon {
+  fill: #f4f4fd;
+}
+
+.footer-team-link:hover,
+.footer-team-link:focus {
+  background-color: #404bbf;
+}
+
+.team__icon {
+  fill: var(--color-cloud);
 }
 
 /* Modal window*/
