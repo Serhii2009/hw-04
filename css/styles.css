@@ -314,7 +314,7 @@ ol {
   justify-content: center;
   height: 112px;
   border-radius: 4px;
-  background-color: var(--color-cloud);
+  background-color: #f4f4fd;
   margin-bottom: 8px;
 }
 
@@ -552,6 +552,8 @@ footer > .link {
   padding-bottom: 120px;
 }
 
+/* Modal window*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -583,7 +585,7 @@ footer > .link {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close {
+.modal-close {
   padding: 0;
   position: absolute;
   top: 24px;
@@ -600,19 +602,19 @@ footer > .link {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close:hover,
-.modal__button-close:focus {
+.modal-close:hover,
+.modal-close:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
 
-.modal__icon-close {
+.modal-icon-close {
   fill: black;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__button-close:hover .modal__icon-close,
-.modal__button-close:focus .modal__icon-close {
+.modal-close:hover .modal-icon-close,
+.modal-close:focus .modal-icon-close {
   fill: #ffffff;
 }
