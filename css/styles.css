@@ -308,6 +308,16 @@ ol {
   gap: 24px;
 }
 
+.company_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--color-cloud);
+  margin-bottom: 8px;
+}
+
 .two-list:last-child {
   margin-right: 0;
 }
