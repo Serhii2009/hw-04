@@ -257,20 +257,22 @@ ol {
 }
 
 .genneral-button {
-  font-weight: 500;
   background-color: var(--logo-color);
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: none;
   cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
   border-radius: 4px;
-  cursor: pointer;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
   margin: 0 auto;
+  min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .genneral-screen {
